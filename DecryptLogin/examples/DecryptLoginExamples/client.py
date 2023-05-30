@@ -11,7 +11,7 @@ try: from .crawlers import *
 except: from crawlers import *
 warnings.filterwarnings('ignore')
 
-
+#sub kuch yaha hai
 '''模拟登录系列爬虫调用客户端'''
 class Client():
     def __init__(self, disable_print_auth=True, **kwargs):
@@ -34,3 +34,4 @@ class Client():
     '''str'''
     def __str__(self):
         return 'Welcome to use DecryptLogin-examples!\nYou can visit https://github.com/CharlesPikachu/DecryptLogin for more details.'
+    #ok hogya
